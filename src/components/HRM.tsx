@@ -437,7 +437,7 @@ export function HRM({ erpData, updateData }: HRMProps) {
                 type="text" 
                 value={employeeSearch}
                 onChange={e => setEmployeeSearch(e.target.value)}
-                placeholder="Lookup personnel name..."
+                placeholder="    Lookup personnel name..."
                 className="w-full pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg outline-none focus:bg-white focus:border-indigo-500 transition"
               />
             </div>

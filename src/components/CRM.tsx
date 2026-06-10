@@ -400,7 +400,7 @@ export function CRM({ erpData, updateData }: CRMProps) {
                 type="text" 
                 value={customerSearch}
                 onChange={e => setCustomerSearch(e.target.value)}
-                placeholder="Lookup name or sector..."
+                placeholder="    Lookup name or sector..."
                 className="w-full pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg outline-none focus:bg-white focus:border-indigo-500 transition"
               />
             </div>

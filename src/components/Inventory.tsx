@@ -427,7 +427,7 @@ export function Inventory({ erpData, updateData }: InventoryProps) {
                 type="text" 
                 value={catalogSearch}
                 onChange={e => setCatalogSearch(e.target.value)}
-                placeholder="Lookup SKU or Name..."
+                placeholder="    Find SKU or Name..."
                 className="w-full pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg outline-none focus:bg-white focus:border-indigo-500 transition"
               />
             </div>

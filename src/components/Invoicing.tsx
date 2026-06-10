@@ -461,7 +461,7 @@ export function Invoicing({ erpData, updateData }: InvoicingProps) {
                 type="text" 
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                placeholder="INV Number or Client..."
+                placeholder="    INV Number or Client..."
                 className="w-full pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg outline-none focus:bg-white focus:border-indigo-500 transition"
               />
             </div>
